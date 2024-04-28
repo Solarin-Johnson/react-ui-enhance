@@ -24,7 +24,11 @@ Once installed, you can import and use components from react-ui-enhance in your 
 import { InputText } from "react-ui-enhance";
 
 function App() {
-  return <div>{/* Your components here */}</div>;
+  return (
+    <div>
+      <InputText />
+    </div>
+  );
 }
 
 export default App;
@@ -37,8 +41,3 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-
-Feel free to adjust this README template further to match your project's specific needs. If you have any questions or need further assistance, just let me know!
-```

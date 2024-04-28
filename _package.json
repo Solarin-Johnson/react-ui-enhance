@@ -1,9 +1,9 @@
 {
   "name": "react-ui-enhanced",
   "version": "0.1.0",
-  "main": "index",
-  "types": "index",
-  "module": "index",
+  "main": "dist/index",
+  "types": "dist/index",
+  "module": "dist/index",
   "description": "Simplify and enhance your React app's UI with reusable components.",
   "files": [
     "dist",
@@ -40,5 +40,17 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
