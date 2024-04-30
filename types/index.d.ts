@@ -3,8 +3,8 @@ declare module "react-ui-enhance" {
 
   // Define the type of the Button component
   interface InputText {
-    value: string;
-    onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+    initialValue: string;
+    onChange: (value: string) => void;
   }
 
   // Declare the Button component with its props
